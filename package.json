@@ -1,0 +1,25 @@
+{
+  "name": "assignment_day_29_budi_santoso",
+  "version": "1.0.0",
+  "description": "This repository is dedicated to complete the assignment day 29 by dibimbing.id",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "node app.js",
+    "petstore": "node petstore.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budisdjung/assignment_day_29_budi_santoso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/budisdjung/assignment_day_29_budi_santoso/issues"
+  },
+  "homepage": "https://github.com/budisdjung/assignment_day_29_budi_santoso#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

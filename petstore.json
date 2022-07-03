@@ -1,0 +1,32 @@
+[
+    {
+        "petId": "001",
+        "petName": "Bulbasaur",
+        "petType": "Frog"
+    },
+    {
+        "petId": "004",
+        "petName": "Charmander",
+        "petType": "Chameleon"
+    },
+    {
+        "petId": "007",
+        "petName": "Squirtle",
+        "petType": "Turtle"
+    },
+    {
+        "petId": "010",
+        "petName": "Caterpie",
+        "petType": "Butterfly"
+    },
+    {
+        "petId": "014",
+        "petName": "Weedle",
+        "petType": "Bee"
+    },
+    {
+        "petId": "017",
+        "petName": "Pidgey",
+        "petType": "Pigeon"
+    }
+]
