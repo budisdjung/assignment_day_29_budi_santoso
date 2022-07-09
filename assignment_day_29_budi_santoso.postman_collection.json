@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "13e71dd2-e13b-4024-b936-c189c2feebef",
+		"name": "assignment_day_29_budi_santoso",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Pets List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pet/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pet",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post to Petstore",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pet/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pet",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Pet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    petId : \"026\",\r\n    petName : \"Raichu\",\r\n    petType : \"Mouse\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url}}/pet/create-db/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pet",
+						"create-db",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pet Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pet/:petid/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pet",
+						":petid",
+						""
+					],
+					"variable": [
+						{
+							"key": "petid",
+							"value": "026"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Existing Pet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pet/:petId/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pet",
+						":petId",
+						""
+					],
+					"variable": [
+						{
+							"key": "petId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Existing Pet",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pet/:petid/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pet",
+						":petid",
+						""
+					],
+					"variable": [
+						{
+							"key": "petid",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "localhost:3000",
+			"type": "default"
+		}
+	]
+}
